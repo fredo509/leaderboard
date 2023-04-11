@@ -52,6 +52,7 @@ section {
 #refresh {
 	height: 20px;
 	margin-left: 7px;
+	border-radius: 12px;
 }
 
 form {
@@ -78,4 +79,8 @@ input {
 .in {
 	display: flex;
 	flex-direction: column;
+}
+
+#btn-submit {
+	border-radius: 12px;
 }
