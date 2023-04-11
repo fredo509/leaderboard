@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -48,5 +48,6 @@
     "webpack-dev-middleware": "^5.3.3",
     "webpack-dev-server": "^4.9.3",
     "yamljs": "^0.3.0"
-  }
+  },
+  "main": "server.js"
 }
