@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juanmanuelbyc/to-do-list.git"
+    "url": "git+https://github.com/fredo509/leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juanmanuelbyc/to-do-list/issues"
+    "url": "https://github.com/fredo509/leaderboard/issues"
   },
-  "homepage": "https://github.com/juanmanuelbyc/to-do-list#readme",
+  "homepage": "https://github.com/fredo509/leaderboard#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
     "babel-eslint": "^10.1.0",
