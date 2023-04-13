@@ -13,6 +13,8 @@ const template = document.getElementById('template');
 btnSubmit.addEventListener('click', () => {
   const newPlayer = new GamePlayer(name.value, score.value);
   playerGenerator(newPlayer);
+  name.value = '';
+  score.value = '';
 });
 
 refresh.addEventListener('click', () => {
