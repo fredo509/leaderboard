@@ -38,7 +38,7 @@ section {
   height: 30px;
   align-items: center;
   justify-content: flex-start;
-  margin: 0  auto;
+  margin: 5px  auto;
 }
 
 #scoreBlock {
@@ -47,6 +47,8 @@ section {
   flex-direction: column;
   width: 50%;
   border-radius: 12px;
+  height: 250px;
+  overflow-y: scroll;
 }
 
 #refresh {
