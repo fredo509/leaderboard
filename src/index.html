@@ -8,7 +8,30 @@
   </head>
 
   <body>
-   
+  <main>
+    <h1 class="project-title">Leaderboard</h1>
+    <section>
+      <div id="scoreBlock">
+        <div id="scorehead">
+          <p class="title">Recent scores</p>
+          <button id="refresh" type="button"> Refresh</button>
+        </div>
+        <div>
+            <table  id="template">
+              
+            </table>
+        </div>
+      </div>
+  
+      <div id="add">
+        <p class="title">Add your score</p>
+        <div class="in">
+            <input type="text" placeholder="Your name" id="name" required>
+            <input type="number" placeholder="Your score" id="score" required>
+            <button type="submit" id="btsubmit">Submit</button>
+        </div>
+      </div>
+    </section>
+  </main>
   </body>
-
 </html>
