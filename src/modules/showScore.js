@@ -1,4 +1,5 @@
 const showScore = async (temp) => {
+  temp.innerHTML = '';
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gNpARx1YwqgWhJk6znvn/scores', {
     method: 'GET',
     headers: {
@@ -16,6 +17,7 @@ const showScore = async (temp) => {
   </tr>
   `;
   });
+  return 1;
 };
 
 export default showScore;
