@@ -1,5 +1,6 @@
 const playerGenerator = (Obj) => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/gNpARx1YwqgWhJk6znvn/scores', {
+  const apiKey = 'gNpARx1YwqgWhJk6znvn';
+  fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores`, {
     method: 'POST',
     body: JSON.stringify(Obj),
     headers: {
