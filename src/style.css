@@ -5,12 +5,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url('https://i.redd.it/ojkrcacp41p61.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: rgb(11, 0, 58);
   border-radius: 12px;
-  width: 90%;
+  width: 75%;
 }
 
 section {
@@ -19,11 +23,15 @@ section {
   padding: 10px;
   box-sizing: border-box;
   width: 100%;
-  background-color: aquamarine;
+  background-color: rgb(56, 0, 129);
+  box-shadow: -1px -11px 17px 4px rgb(1, 217, 255);
 }
 
 .project-title {
   margin-left: 25px;
+  color: rgb(1, 217, 255);
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .title {
@@ -31,6 +39,7 @@ section {
   box-sizing: border-box;
   text-align: center;
   margin: auto;
+  color: rgb(56, 0, 129);
 }
 
 #scorehead {
@@ -54,17 +63,14 @@ section {
 #refresh {
   height: 20px;
   margin-left: 7px;
+  border: 2px solid rgb(56, 0, 129);
   border-radius: 12px;
+  color: rgb(56, 0, 129);
 }
 
 table {
   width: 100%;
   padding: 5px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
 }
 
 input {
@@ -88,6 +94,26 @@ input {
   flex-direction: column;
 }
 
-#btn-submit {
+#btsubmit {
   border-radius: 12px;
+  border: 2px solid rgb(56, 0, 129);
+}
+
+/* //Mobile version  */
+
+@media screen and (width < 768px) {
+  section {
+    flex-direction: column-reverse;
+  }
+
+  #add {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+  }
+
+  #scoreBlock {
+    width: 100%;
+  }
 }
